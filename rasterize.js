@@ -166,7 +166,7 @@ function setupShaders() {
     
         void main(void) {
             vec3 p = vertexPosition;
-            p.xy = (p.xy - vec2(0.3, 0.45)) * vec2(5.0, 2.5);
+            p.xy = (p.xy - vec2(0.25, 0.55)) * vec2(5.0, 2.5);
             gl_Position = vec4(p, 1.0);
         }
     `;
